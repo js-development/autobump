@@ -1,1 +1,1 @@
-worker node autobump.js
+worker: node autobump.js

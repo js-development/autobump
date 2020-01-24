@@ -1,6 +1,17 @@
 const Discord = require("discord.js");
 const ms = require("ms");
 
+
+client.on('ready', () => {
+    console.log('I am ready!');
+});
+
+client.on('message', message => {
+    if (message.content === 'ping') {
+    	message.reply('pong');
+  	}
+));
+
 module.exports.run = async(client, message, args) => {
 
   const interval = setInterval( () => {

@@ -1,17 +1,14 @@
+  
 {
-  "name": "Auto Bump Bot",
-  "version": "1.0.0",
-  "description": "Automatically bumps the server!",
-  "main": "autobump.js",
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
+  "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "author": "Death",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.3.2",
-    "fs": "0.0.1-security",
-    "ms": "^2.1.1"
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
 }
